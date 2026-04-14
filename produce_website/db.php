@@ -73,5 +73,3 @@ CREATE TABLE contact_messages (
     status VARCHAR(20) NOT NULL DEFAULT 'Unread'
 );
         -->
-
--->
