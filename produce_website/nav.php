@@ -27,9 +27,9 @@ include 'db.php'; ?>
         <?php if (isset($_SESSION['user_id'])): ?>
             <a href="profile.php" class="icon-link" aria-label="Profile">
                 <i class="fa-solid fa-user"></i>
-            </a>
+            </a><!-- shows cart and profile because the user is logged in-->
             <a href="logout.php" class="login-link">Log Out</a>
-        <?php else: ?>
+        <?php else: ?> <!-- shows login and signup because the user is logged out-->
             <a href="login.php" class="login-link">Log In</a>
             <a href="signup.php" class="signup-btn">Sign Up For Free</a>
         <?php endif; ?>

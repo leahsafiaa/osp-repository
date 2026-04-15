@@ -6,8 +6,8 @@ if (!$conn) {
 }
 ?>
 
-<!-- sql database -->
-<!-- CREATE DATABASE shop_db;
+<!-- 
+CREATE DATABASE shop_db;
 USE shop_db;
 
 CREATE TABLE users (
@@ -20,7 +20,7 @@ CREATE TABLE users (
     loyalty_points INT NOT NULL DEFAULT 0
 );
 
-CREATE TABLE farms (
+CREATE TABLE farm_profiles (
     farm_id INT AUTO_INCREMENT PRIMARY KEY,
     farm_name VARCHAR(100) NOT NULL,
     description TEXT NOT NULL,
@@ -72,4 +72,4 @@ CREATE TABLE contact_messages (
     submitted_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     status VARCHAR(20) NOT NULL DEFAULT 'Unread'
 );
-        -->
+-->
